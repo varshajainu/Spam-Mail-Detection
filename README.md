@@ -2,15 +2,10 @@
 The theme of the project is to classify the data into spam and ham. The process of spam detection is based on the assumption that the content of the spam different than the legitimate or ham. This is the main agenda of this project.
 
 # ABSTRACT
-SMS (Short Message Service) is still the primary choice as a communication medium even though nowadays
-mobile phone is growing with a variety of communication media messenger applications. However,
-nowadays along with the SMS tariff reduction leads to the increase of SMS spam, as used by some people as
-an alternative to advertise and fraud. Therefore, it becomes an important issue as it can bug and harm the
-users and one of its solutions is with automatic SMS spam filtering.
-One of most challenging in SMS spam filtering is its accuracy. In this research we proposed to
-enhance SMS spam filtering performance by combining two of data mining task association and
-classification. FP-growth in association is utilized for mining frequent pattern on SMS and Naive Bayes
-Classifier is used to classify whether SMS is spam or ham. Training data was using SMS spam collection
-from previous research. The result of using collaboration of Naive Bayes and FP-Growth performs the
-highest average accuracy of 90%. FP-Growth for dataset SMS Spam Collection and improves the precision
-score; thus, the classification result is more accurate. 
+SMS (Short Message Service) is still the primary choice as a communication medium even though nowadays mobile phone is growing with a variety of communication media messenger applications. However, nowadays along with the SMS tariff reduction leads to the increase of SMS spam, as used by some people as an alternative to advertise and fraud. Therefore, it becomes an important issue as it can bug and harm the users and one of its solutions is with automatic SMS spam filtering. One of most challenging in SMS spam filtering is its accuracy. In this research we proposed to enhance SMS spam filtering performance by combining two of data mining task association and classification. FP-growth in association is utilized for mining frequent pattern on SMS and Naive Bayes Classifier is used to classify whether SMS is spam or ham. Training data was using SMS spam collection from previous research. The result of using collaboration of Naive Bayes and FP-Growth performs the highest average accuracy of 90%. FP-Growth for dataset SMS Spam Collection and improves the precision score; thus, the classification result is more accurate. 
+
+# PROBLEM STATEMENT
+Spam Detection system is proposed which will classify the data into spam and ham. A typical data can be classified by filtering its content. The process of spam detection is based on the assumption that the content of the spam is different than the legitimate or ham. Spam is also referred to as junk and is unsolicited messages sent in bulk by spamming. Spammers collect email addresses from chat rooms, websites, customer lists, newsgroups, and viruses that harvest users'
+address books.
+On top of mocking-up delivery and storing the results you also need to have human analysis of the accuracy of filtering (flagging as spam, deleting, filing to a "Junk E mail" folder, etc.). It probably goes w/o saying, but a human need to verify the results of filtering since the whole point of this exercise is to test the computer's ability to filter results. (I know, that went w/o saying... but I can just hear somebody saying "But wait! We'll write a script to test the accuracy...")
+The filtering analysis is problematic foremost, to my mind, as a matter of scale. For any large group of endusers, filtering analysis is going to be beyond the abilities of an individual or small group of testers (or, more likely, they'll just "spot check" and hope for the best). Moreover, the tester may have a different idea of what should be considered "spam" than the real receiving user (who really does want to receive those stupid promotional emails from their car rental company, or the "vocabulary word of the day"). Identifying obviously failed messages is probably pretty easy (pornographic emails in the "Inbox", messages from known Customers in the "Junk E-mail" folder, etc.), but there's certainly the potential for subtlety. I don't think there's a 100% substitute for reality-- you're just going to have to get close and hope that your testing setup reflects reality closely enough to give you an accurate assessment of the filter's performance.
